@@ -21,7 +21,7 @@ sys.path.append('C:\\your\\path\\to\\scripts')
 
 ## UI
 import importlib
-import clothingRigger.clothingRiggerUI as cRig
+import ghostControlRigger.ghostControlRiggerUI as cRig
 importlib.reload(cRig)
 cRig.showUI()
 
